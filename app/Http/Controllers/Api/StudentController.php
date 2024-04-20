@@ -74,7 +74,7 @@ class StudentController extends Controller
                 'nombres' => $request->nombres,
                 'apellidos' => $request->apellidos,
                 'correo' => $request->correo,
-                'clave' => $$clavecifrada
+                'clave' => $clavecifrada
             ]);
 
             if(!$student){
