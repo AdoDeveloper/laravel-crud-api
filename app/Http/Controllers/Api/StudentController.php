@@ -85,7 +85,7 @@ class StudentController extends Controller
 
                 return response()->json($data,500);
             }else{
-                
+
                 $filteredStudent = [
                     'id' => $student->id,
                     'nombres' => $student->nombres,
